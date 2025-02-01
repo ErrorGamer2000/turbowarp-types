@@ -1,6 +1,6 @@
 {
   "name": "@turbowarp/types",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Type definitions for the Scratch VM and editor",
   "keywords": [
     "scratch"
@@ -12,7 +12,8 @@
   },
   "scripts": {
     "test": "tsc",
-    "watch": "tsc -w"
+    "watch": "tsc -w",
+    "build": "typedoc types/*"
   },
   "repository": {
     "type": "git",
@@ -24,8 +25,8 @@
     "url": "https://github.com/TurboWarp/types/issues"
   },
   "homepage": "https://github.com/TurboWarp/types#readme",
-  "dependencies": {},
   "devDependencies": {
-    "typescript": "^4.7.4"
+    "typedoc": "^0.27.6",
+    "typescript": "^5.7.3"
   }
 }
